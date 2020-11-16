@@ -7,6 +7,7 @@ import Button from './components/Button';
 function App() {
   const [quotes, setQuotes] = useState([]);
   const [randomIndex, setRandomIndex] = useState();
+  const [color, setColor] = useState('#0c1446');
   useEffect(() => {
     async function getData(){
       try {
@@ -21,6 +22,37 @@ function App() {
     getData();
     setRandomIndex(selectQuoteIndex);
   },[]);
+  useEffect(() => {
+    function changeColor() {
+      const colors = [
+        "#023e8a",
+        '#16a085',
+        '#27ae60',
+        '#2c3e50',
+        '#f39c12',
+        '#e74c3c',
+        '#9b59b6',
+        '#FB6964',
+        '#342224',
+        '#472E32',
+        '#BDBB99',
+        '#77B1A9',
+        '#73A857',
+        '#00b4d8',
+        '#457b9d',
+        '#8d99ae',
+        '#ffd166'
+      ];
+      const color = Math.floor(Math.random() * colors.length);
+      setColor(() => {
+        return (
+          document.body.style = `background-color: ${colors[color]}`
+        );
+      })
+    };
+    console.log(color)
+    changeColor();
+  },[randomIndex])
   const selectedQuote = () => {
     if((!quotes.length) || !Number.isInteger(randomIndex))
     {
@@ -41,7 +73,7 @@ function App() {
       <div className="App">
         <div className="quote-box">
         {selectedQuote() ? `"${quotes[randomIndex].quote}" - ${quotes[randomIndex].author}` : ''}
-        <Button className="button" setRandomIndex={setRandomIndex} quotes={quotes} />
+        <Button className="button" setRandomIndex={setRandomIndex} quotes={quotes} color={color} setColor={setColor} />
       </div>
       <div className="footer">by dpthinh</div>
       </div>
