@@ -41,12 +41,20 @@ function App() {
         '#00b4d8',
         '#457b9d',
         '#8d99ae',
-        '#ffd166'
+        '#ffd166',
+        '#e63946',
+        '#ffadad',
+        '#4ea8de',
+        '#dee2ff',
+        '#5d2e46',
+        '#ade8f4',
+        '#80b918'
       ];
       const color = Math.floor(Math.random() * colors.length);
+      const bodyColor = document.body;
       setColor(() => {
         return (
-          document.body.style = `background-color: ${colors[color]}`
+          bodyColor.style =  `background-color: ${colors[color]}`
         );
       })
     };

@@ -1,4 +1,4 @@
-import { random } from 'lodash';
+import { random, set } from 'lodash';
 import React from 'react';
 import '../App.css';
 
