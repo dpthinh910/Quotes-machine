@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Quotes-machine/static/css/main.f8b0f65c.chunk.css",
-    "main.js": "/Quotes-machine/static/js/main.bd8eb044.chunk.js",
-    "main.js.map": "/Quotes-machine/static/js/main.bd8eb044.chunk.js.map",
+    "main.css": "/Quotes-machine/static/css/main.a8d765b3.chunk.css",
+    "main.js": "/Quotes-machine/static/js/main.52e8db4e.chunk.js",
+    "main.js.map": "/Quotes-machine/static/js/main.52e8db4e.chunk.js.map",
     "runtime-main.js": "/Quotes-machine/static/js/runtime-main.54b9483a.js",
     "runtime-main.js.map": "/Quotes-machine/static/js/runtime-main.54b9483a.js.map",
-    "static/js/2.dd9559a1.chunk.js": "/Quotes-machine/static/js/2.dd9559a1.chunk.js",
-    "static/js/2.dd9559a1.chunk.js.map": "/Quotes-machine/static/js/2.dd9559a1.chunk.js.map",
+    "static/js/2.a06c28ec.chunk.js": "/Quotes-machine/static/js/2.a06c28ec.chunk.js",
+    "static/js/2.a06c28ec.chunk.js.map": "/Quotes-machine/static/js/2.a06c28ec.chunk.js.map",
     "static/js/3.68be37ba.chunk.js": "/Quotes-machine/static/js/3.68be37ba.chunk.js",
     "static/js/3.68be37ba.chunk.js.map": "/Quotes-machine/static/js/3.68be37ba.chunk.js.map",
     "index.html": "/Quotes-machine/index.html",
-    "static/css/main.f8b0f65c.chunk.css.map": "/Quotes-machine/static/css/main.f8b0f65c.chunk.css.map",
-    "static/js/2.dd9559a1.chunk.js.LICENSE.txt": "/Quotes-machine/static/js/2.dd9559a1.chunk.js.LICENSE.txt"
+    "static/css/main.a8d765b3.chunk.css.map": "/Quotes-machine/static/css/main.a8d765b3.chunk.css.map",
+    "static/js/2.a06c28ec.chunk.js.LICENSE.txt": "/Quotes-machine/static/js/2.a06c28ec.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.54b9483a.js",
-    "static/js/2.dd9559a1.chunk.js",
-    "static/css/main.f8b0f65c.chunk.css",
-    "static/js/main.bd8eb044.chunk.js"
+    "static/js/2.a06c28ec.chunk.js",
+    "static/css/main.a8d765b3.chunk.css",
+    "static/js/main.52e8db4e.chunk.js"
   ]
 }
